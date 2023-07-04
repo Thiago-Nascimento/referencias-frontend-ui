@@ -62,13 +62,14 @@ body {
 }
 
 .container-avaliacao .estrelas svg {
-    color: var(--grey);
+    fill: var(--grey);
+    
     width: 40px;
-    /* font-size: 40px; */
     cursor: pointer;
-    transition: color .2s ease;
+    transition: fill .2s ease;
 }
 
 .container-avaliacao .estrelas svg.ativo {
-    color: var(--yellow);
+    fill: var(--yellow);
 }
+
